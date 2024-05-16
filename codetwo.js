@@ -25,9 +25,10 @@ function adding(){
     if(counter!=7){
         counter++;
     }
-    
-
 }
+
 function removing(){
+    counter--;
     names[counter]="";
+    document.getElementById("names").innerText=(names[1]+ " " + names[2] + " " + names[3] + " " + names[4] + " " + names[5] + " " + names[6] + " " + names[7]);
 }
